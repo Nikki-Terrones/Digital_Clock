@@ -14,3 +14,7 @@ h1 {
 .date {
   color: rgb(236, 242, 125);
 }
+
+.button {
+  opacity: 80%;
+}
