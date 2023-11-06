@@ -1,0 +1,16 @@
+body {
+  background-color: darkgray;
+}
+
+
+h1 {
+  color: rgb(160, 247, 247);
+}
+
+.clockFace {
+  color: rgb(171, 235, 107);
+}
+
+.date {
+  color: rgb(236, 242, 125);
+}
