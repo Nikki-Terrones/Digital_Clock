@@ -1,18 +1,43 @@
+/* Source for my style: https://www.youtube.com/watch?v=V8yhRFbmmZ0 */
 body {
-  background-color: rgb(66, 84, 102);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 15px
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;  /* the "vh" stands for viewpoint height (delete note before git push) */
+  justify-content: center;
+  background-image: url("stacked_rocks.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /* overflow: hidden; */
 }
 
 
 h1 {
-  color: rgb(132, 203, 203);
+  color: rgb(71, 189, 189);
+  width: 25%;
+  margin: 50px;
+  padding: 5%;
 }
 
-.clockFace {
-  color: rgb(158, 198, 118);
+#clockFace {
+  color: rgb(117, 181, 53);
+  font-size: 50px;
+  width: 25%;
+  margin: 50px;
+  padding: 5%;  
 }
 
 .date {
-  color: rgb(167, 169, 115);
+  color: rgb(218, 221, 35);
+  font-size: 50px;
+  width: 25%;
+  margin: 50px;
+  padding: 5%;
 }
 
 .button {
