@@ -1,45 +1,39 @@
-/* Source for my style: https://www.youtube.com/watch?v=V8yhRFbmmZ0 */
 body {
+  
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 15px
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;  /* the "vh" stands for viewpoint height (delete note before git push) */
-  justify-content: center;
-  background-image: url("stacked_rocks.JPG");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  /* overflow: hidden; */
+  background-image: url("hanging_lock.JPG");background-size: 225vh;
 }
 
+#container {
+  display: inline;
+  margin: 10px;
+  border: 2px;
+  padding: 20px;
+}
 
-h1 {
+#subtitle {
+  background-color: bisque;
   color: rgb(71, 189, 189);
-  width: 25%;
+  width: 35%;
   margin: 50px;
   padding: 5%;
 }
 
 #clockFace {
-  color: rgb(117, 181, 53);
+  background-color: bisque;
+  color: rgb(178, 239, 117);
   font-size: 50px;
-  width: 25%;
+  width: 35%;
   margin: 50px;
   padding: 5%;  
 }
 
-.date {
+#date {
+  background-color: bisque;
   color: rgb(218, 221, 35);
-  font-size: 50px;
-  width: 25%;
+  font-size: 15px;
+  width: 35%;
   margin: 50px;
   padding: 5%;
 }
 
-.button {
-  opacity: 80%;
-}
