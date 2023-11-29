@@ -1,39 +1,47 @@
 body {
   
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("hanging_lock.JPG");background-size: 225vh;
+  background-image: url("hanging_lock.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #container {
+  text-align: center;
   display: inline;
   margin: 10px;
   border: 2px;
-  padding: 20px;
+  padding: 10px;
 }
 
 #subtitle {
-  background-color: bisque;
+  background-color: rgba(255, 228, 196, 0.75);
   color: rgb(71, 189, 189);
   width: 35%;
   margin: 50px;
-  padding: 5%;
+  padding: 2%;
 }
 
-#clockFace {
-  background-color: bisque;
-  color: rgb(178, 239, 117);
-  font-size: 50px;
+#clock {
+  background-color: rgba(255, 228, 196, 0.75);
+  color: rgb(35, 182, 52);
+  font-size: 35px;
   width: 35%;
   margin: 50px;
-  padding: 5%;  
+  padding: 2%;  
 }
 
 #date {
-  background-color: bisque;
-  color: rgb(218, 221, 35);
-  font-size: 15px;
+  background-color: rgba(255, 228, 196, 0.75);
+  color: rgb(180, 182, 82);
+  font-size: 25px;
   width: 35%;
   margin: 50px;
-  padding: 5%;
+  padding: 2%;
 }
 
+div {
+  border-radius: 10px;
+};
